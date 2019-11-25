@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Lobster|Pacifico&display=swap" rel="stylesheet">
+    
+    <!-- jquery -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  
+    <script>
+      $(document).ready(function(){
+        $('.slider').bxSlider();
+      });
+    </script>
+
+    
+
+      <!-- TITLE -->
+    <title>Kids Games</title>
+
+    
+
+</head>
+<body>
+
+    
+
+    <header class="navbar">
+        <a href="index.html">
+        <div class="jigsaw">
+            <img src="img/creative.png"  alt="">
+        </div>
+        </a>
+        <div class="sillyclicks">
+            <h1 class="heading">SillyClicks</h1> 
+        </div>
+        <div class="joystick">
+                <img src="img/game-controller.png" alt="">
+            </div>
+        <div class="balloons">
+            <img src="img/balloons.png" alt="">
+        </div>
+    </header>
+
+    
+    <div class="menu">
+      <ul>
+        <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+        <li><a href="memorygame.html" >Memory Game</a></li>
+        <li><a href="rps.html" >Rock Paper Scissors</a></li>
+        <li><a href="typing.html" >Speed Typing</a></li>
+     
+      </ul>
+    </div>
+
+    <h1 id="playnow">Play now!</h1>
+
+    
+    <div class="container1">
+        
+        <div class="slajder">
+            <div class="bxslider">
+                    <div><img id="tictac" src="img/tic-tac.png" alt="tic tac toe" title="Tic Tac Toe"></div>
+                <div><img id="memory" src="img/memory_game.jpg" alt="memory_game" title="Memory Game"></div>
+                <div><img id="rps" src="img/rockimg.jpg" alt="rock" title="Rock Papar Scissors"></div>
+                <div><img id="typing" src="img/typing.png" alt="typing"title="Speed Typing Game"></div>
+            </div>
+         </div>
+    </div>
+      
+    <footer>
+      © Milican 2019
+    </footer>
+
+  <script>$(function(){
+       $('.bxslider').bxSlider({
+       mode: 'fade',
+       captions: true,
+       slideWidth: 600
+       });
+  });</script>
+    
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="css/rps.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Lobster|Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+
+        <header class="navbar">
+                <a href="index.html">
+                        <div class="jigsaw">
+                            <img src="img/creative.png"  alt="">
+                        </div>
+                </a>
+                <div class="sillyclicks">
+                    <h1 class="heading">SillyClicks</h1> 
+                </div>
+                <div class="joystick">
+                        <img src="img/game-controller.png" alt="">
+                    </div>
+                <div class="balloons">
+                    <img src="img/balloons.png" alt="">
+                </div>
+            </header>
+    <!-- <header>
+        <h1>Rock Paper Scissors</h1>
+    </header> -->
+
+    <div class="menu">
+            <ul>
+              <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+              <li><a href="memorygame.html" >Memory Game</a></li>
+              <li><a class="rps" href="rps.html" >Rock Paper Scissors</a></li>
+              <li><a href="typing.html" >Speed Typing</a></li>
+           
+            </ul>
+          </div>
+
+    <div class="scoreboard">
+        <div id="user-label" class="badge">user</div>
+        <div id="computer-label" class="badge">comp</div>
+        <span id="user-score">0</span>:<span id="computer-score">0</span>
+
+    </div>
+
+    <div class="result">
+        <p>Paper covers rock. You win!</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <img class="pic" src="img/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img class="pic" src="img/paper.jpg" alt="paper">
+        </div>
+        <div class="choice" id="s">
+            <img class="pic" src="img/scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <p id="action-message">Make your move.</p>
+    <footer>
+        © Milican 2019
+      </footer>
+
+    <script src="js/rps.js" charset="UTF-8"></script>
+
+</body>
+</html>

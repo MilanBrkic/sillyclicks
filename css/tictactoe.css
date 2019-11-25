@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Asap, sans-serif;
+    font-size: 27px;
+    
+}
+.wrapper{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(50px, 165px);
+    
+    gap: 1em;
+}
+/* .wrapper >div {
+    background: #eee;
+}
+
+.wrapper>div:nth-child(odd){
+    background: #ddd;
+} */
+.wrapper>div:first-child{
+    justify-content: center;
+}
+
+.xo{
+    /* padding-top: 100px; */
+    grid-column: 1/4;
+    grid-row: 2/4;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+td{
+    border: 4px solid black;
+    height: 130px;
+    width: 130px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 90px;
+    cursor: pointer;
+}
+
+table{
+    /* margin-top: 10px; */
+    
+    border-collapse: collapse;
+    position: absolute;
+    /* left: 50%; */
+    /* margin-left: -155px; */
+    /* top: 50px; */
+}
+
+table tr:first-child td{
+    border-top: 0;
+}
+
+table tr:last-child td{
+    border-bottom: 0;
+}
+
+table tr td:first-child{
+    border-left: 0;
+}
+
+table tr td:last-child{
+    border-right: 0;
+}
+.igrac_div{
+    /* display: flex;
+    justify-content: center; 
+    
+    align-items: center; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.igrac{
+    /* text-align: center; */
+    padding-top: 30px;
+    margin: 0;
+    font-weight: bold;   
+    /* display: flex; */
+    /* padding: 15%; */
+    display: flex;
+    justify-content: center; 
+    
+    align-items: center;
+    font-size: 40px;
+    justify-content: center; 
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+    
+}
+.game{
+    /* display: flex;
+    justify-content: center; 
+    
+    align-items: center; */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+    
+}
+.play_div{
+    display: flex;
+    justify-content: center; 
+    
+    align-items: center;
+}
+
+.play{
+    border: 3px solid rgb(19, 18, 18);
+    border-radius: 10%;
+    font-weight: bold;
+    font-family: 'Asap', sans-serif;
+    font-size: 33px;
+    width: 30%;
+    
+}
+
+.multi, .single{
+    font-size: 25   px     ;
+}
+
+#multi, #single{
+    size: 200%;
+}
+
+.single_div, .multi_div{
+    /* padding-left: 20px; */
+    display: flex;
+    
+    justify-content: center;
+}
+
+.multi_div{
+    align-items: center;
+    
+}
+
+
+.score{
+    /* padding-top: 25px; */
+    display: flex;
+    justify-content: center; 
+    
+    align-items: center;
+}
+.score-board{
+    
+    box-sizing: border-box;
+     margin: 20px auto;
+    border: 5px solid whitesmoke;
+    border-radius: 4px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    
+    padding: 15px 20px;
+    
+    position: relative;
+}
+
+.badge{
+    background: #E2584D;
+    color:black;
+    font-size: 30px;
+    padding: 2px 10px;
+    
+}
+
+#x-label{
+    position: absolute;
+    top:38px;
+    left:-17px;
+} 
+
+#o-label{
+    position: absolute;
+    top:37px;
+    right:-20px;
+
+}
+
+#x-score,#o-score, #dveTacke{
+    font-size: 70px;
+    color: whitesmoke;
+    
+} 
+
+#tic{
+    background: #111;
+}

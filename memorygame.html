@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/memorygame.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calistoga|Public+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Lobster|Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+        <header class="navbar">
+                <a href="index.html">
+                  <div class="jigsaw">
+                        <img src="img/creative.png"  alt="">
+                  </div>
+                </a>
+                <div class="sillyclicks">
+                        <h1 class="heading">SillyClicks</h1> 
+                </div>
+                <div class="joystick">
+                        <img src="img/game-controller.png" alt="">
+                </div>
+                <div class="balloons">
+                        <img src="img/balloons.png" alt="">
+                </div>
+         </header>
+
+        <div class="menu">
+           <ul>
+              <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+              <li ><a id="memo" href="memorygame.html" >Memory Game</a></li>
+              <li><a href="rps.html" >Rock Paper Scissors</a></li>
+              <li><a href="typing.html" >Speed Typing</a></li>       
+          </ul>
+        </div>
+
+<div class="kontejner">
+
+        <div class="info">
+                <div class="time">
+                        <p class="title_time">Time:
+                                <span id="m">00</span>
+                                <span>:</span>
+                                <span id="s">00</span>
+                        </p>
+                </div>
+                <br>
+                <div class="moves">
+                        <p class="title_moves">Moves:</p>
+                        <p id="number">0</p>
+                </div>
+        </div>
+
+        <div class="memory-game">
+            <div class="memory-card" data-findnemo="shark">
+                    <img class="front-face" src="img/4.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+            <div class="memory-card" data-findnemo="shark">
+                    <img class="front-face" src="img/4.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+
+            <div class="memory-card" data-findnemo="zebra">
+                    <img class="front-face" src="img/6.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+            <div class="memory-card" data-findnemo="zebra"> 
+                    <img class="front-face" src="img/6.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+
+            <div class="memory-card" data-findnemo="danger">
+                    <img class="front-face" src="img/8.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+            <div class="memory-card" data-findnemo="danger">
+                    <img class="front-face" src="img/8.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+
+            <div class="memory-card" data-findnemo="nemos">
+                    <img class="front-face" src="img/9.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+            <div class="memory-card" data-findnemo="nemos">
+                    <img class="front-face" src="img/9.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+
+            <div class="memory-card" data-findnemo="birds">
+                    <img class="front-face" src="img/11.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+            <div class="memory-card" data-findnemo="birds">
+                    <img class="front-face" src="img/11.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+
+            <div class="memory-card" data-findnemo="egg">
+                    <img class="front-face" src="img/10.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+            <div class="memory-card" data-findnemo="egg">
+                    <img class="front-face" src="img/10.jpg" alt="front">
+                    <img class="back-face" src="img/fblue.png" alt="back">
+            </div>
+    
+    </div>
+    
+</div>
+
+<footer>
+        © Milican 2019
+      </footer>
+
+    
+<script src="js/memorygame.js"></script>
+</body>
+</html>

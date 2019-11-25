@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.kontejner{
+  display: grid;
+  grid-template-columns: 3fr 4fr 3fr;
+}
+
+.memory-game {
+  margin: auto;
+  width: 640px;
+  height: 640px;
+  display: flex;
+  flex-wrap: wrap;
+  perspective: 1000px;
+  padding: 10px;
+}
+
+.memory-card {
+  width: calc(25% - 10px);
+  height: calc(33.333% - 10px);
+  margin: 5px;
+  position: relative;
+  transform: scale(1);
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  box-shadow: 1px 1px 1px rgba(17, 18, 87, 0.3);
+}
+
+.memory-card:active {
+  transform: scale(0.97);
+  transition: transform .2s;
+}
+
+.memory-card.flip {
+  transform: rotateY(180deg);
+}
+
+.front-face,
+.back-face {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  position: absolute;
+  border-radius: 5px;
+  backface-visibility: hidden;
+}
+
+.front-face {
+  transform: rotateY(180deg);
+}
+
+.memory-card{
+  cursor:pointer;
+}
+
+.info{
+  padding-top: 10px;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 28px;
+  color: whitesmoke;
+  text-shadow: 0.5px 0.5px rgb(56, 69, 79); 
+  font-weight: bold;
+}
+
+.time{
+  text-align: center;
+}
+
+.moves{
+  text-align: center;
+}
+
+#memo{
+  background-color: #111;
+}

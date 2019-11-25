@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+#typing{
+    background-color: #111;
+}
+
+.kontis{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 45px;
+    padding-left: 10px;
+    gap: 20px;
+   color: rgb(39, 38, 38);
+
+}
+
+.nivo{
+   padding-top: 5px;
+    text-align: center;
+    font-size: 17px;
+    border: solid 3px rgb(56, 69, 79);
+    border-radius: 3px;
+    background-color: rgb(112, 189, 226); 
+}
+
+#lako{
+    color:whitesmoke;
+}
+
+.sredina{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    font-size:30px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px black;
+    
+}
+
+.t{
+    font-size: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    
+
+}
+
+.s{
+    font-size: 20px;
+   
+
+}
+
+#message{
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#word-input{
+    font-size: 30px;
+}
+
+#current-word{
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+
+.type{
+    font-size: 20px;
+}
+
+.sredina-dole{
+    font-size: 20px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    text-align: center;
+}
+h5{
+    font-size: 20px;
+}
+
+input[type=text] {
+    background-color:  rgb(56, 69, 79);
+    border: 3px solid rgb(56, 69, 79);
+    border-radius: 10px;
+    color: whitesmoke;
+  }
+

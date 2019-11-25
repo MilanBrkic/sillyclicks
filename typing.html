@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Speed Typing Game</title>
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/typing.css">
+    <link href="https://fonts.googleapis.com/css?family=Courgette|Kaushan+Script|Lobster|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body >
+    
+    <header class="navbar">
+        <a href="index.html">
+            <div class="jigsaw">
+            <img src="img/creative.png"  alt="">
+            </div>
+        </a>
+        <div class="sillyclicks">
+            <h1 class="heading">SillyClicks</h1> 
+        </div>
+         <div class="joystick">
+            <img src="img/game-controller.png" alt="">
+        </div>
+        <div class="balloons">
+            <img src="img/balloons.png" alt="">
+        </div>
+    </header>
+    
+    
+            
+       <div class="menu">
+            <ul>
+              <li><a href="tictactoe.html">Tic Tac Toe</a></li>
+              <li><a href="memorygame.html" >Memory Game</a></li>
+              <li><a href="rps.html" >Rock Paper Scissors</a></li>
+              <li><a id="typing" href="typing.html" >Speed Typing</a></li>
+             
+            </ul>
+        </div>
+
+    <div class="kontis">
+        <div class="nivo">
+            <h3>Select level:</h3>
+                                
+                <div class="radio">
+                    <input type="radio" name="optradio" id="lako">Easy   
+                </div>
+    
+                <div class="radio">
+                    <input type="radio" name="optradio" id="srednje">Medium
+                </div>
+    
+                <div class="radio ">
+                    <input type="radio" name="optradio" id="tesko">Hard   
+                </div>
+                <br>
+                <button onclick="setLevel(), checkLevel(), focus1()">Select level</button>
+                <br>
+                <br>
+                <h3>Max Score: 
+                <span id="maxScore">0</span>
+                </h3>           
+        </div>
+          
+<div class="sredina"> 
+
+    <div class="sredina-gore">   
+
+        <div>
+            <div class="type">
+                <p class="lead">Type the given word within
+                <span  id="seconds">?</span> seconds:</p>
+            </div>
+            <h2 id="current-word">hello</h2>
+            <input type="text"placeholder="Start typing..." id="word-input" autofocus size="26">
+            <h4 id="message"></h4>
+            
+               
+        <div class="t">
+            <h3>Time:
+            <span id="time">0</span>
+            </h3>
+        </div>
+        
+        <div class="s">
+            <h3>Score:
+            <span id="score">0</span>
+            </h3>
+        </div>  
+    
+    </div>
+   </div> 
+    
+</div>
+<div class="sredina-dole">
+        <div>
+            <h5>Instructions</h5>
+            <p>Type in every word in given time to score poins. To play again, just type the given word in. Your score will restart
+            </p>
+        </div>
+    </div>
+</div>
+
+
+<footer>
+    © Milican 2019
+  </footer>
+    <script src="js/typing.js"></script>
+    
+</body>
+</html>

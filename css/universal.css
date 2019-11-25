@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=s');
+body{
+    background: rgb(61, 165, 217);
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr repeat(7,2fr);
+    background: #EA7317;
+     
+     padding-left: 15%;
+     padding-right: 15%;
+  }
+
+.heading{
+    font-family:'Kaushan Script', cursive;
+    font-size: 50px;
+    justify-content: center;
+    color: #FEC601;
+    text-shadow: 2px 2px #ff0000;
+    font-weight: bold;
+}
+  
+.menu{
+      margin: 0;
+      padding-left: 22%;
+      overflow: hidden;
+      background-color: rgb(56, 69, 79);
+      /* display: flex;
+      
+      justify-content: center; */
+     
+}
+  
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+    
+li {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 5%;
+    float: left;
+}
+    
+li a {
+    font-size:20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:'Asap', sans-serif ;
+    color: #EA7317;
+}
+    
+
+li a:hover {
+    background-color: #111;
+}
+
+ul{
+    display: inline;
+}
+
+.jigsaw{
+      
+    grid-column: span 1;
+    justify-items: end;
+    padding-top: 7px;    
+}
+  
+.jigsaw>img{
+    object-fit: cover;
+    width: 80%;
+    max-height: 100%; 
+}
+  
+.balloons{
+    grid-column-start: 8;
+    grid-column-end: 9;
+}
+  
+.balloons>img{
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+  
+.joystick{
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+  
+.joystick>img{
+    object-fit: cover;
+    width: 90%;
+    max-height: 100%;
+}
+  
+.sillyclicks{
+    grid-column: 2/ span 2;
+}
+ 
+  
+  footer{
+      background: rgb(56, 69, 79);
+      color: whitesmoke;
+      font-family:  'Raleway', sans-serif;
+      text-align: center;
+      margin: auto;
+  }
+
+  body{
+    position: relative;
+    min-height: 100vh;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 20px;
+    font-weight: lighter;
+    color: lightgray;
+  }
